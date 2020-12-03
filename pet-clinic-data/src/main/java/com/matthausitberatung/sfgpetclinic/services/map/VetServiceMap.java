@@ -1,11 +1,12 @@
 package com.matthausitberatung.sfgpetclinic.services.map;
 
 import com.matthausitberatung.sfgpetclinic.model.Vet;
-import com.matthausitberatung.sfgpetclinic.services.CrudService;
 import com.matthausitberatung.sfgpetclinic.services.VetService;
+import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
+@Service
 public class VetServiceMap extends AbstractMapService<Vet,Long> implements VetService {
 
     @Override
